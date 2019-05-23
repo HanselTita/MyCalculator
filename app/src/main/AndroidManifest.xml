@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.softhans.mycalculator">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_my_calculator"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_my_calculator_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UnitConversion"
+            android:label="@string/go_to_unitConversion"></activity>
+        <activity android:name=".volumeConverter"
+            android:label="@string/go_to_volume"></activity>
+        <activity android:name=".lengthConverter"
+            android:label="@string/go_to_length"></activity>
+        <activity android:name=".WeightConverter"
+            android:label="@string/go_to_weight"></activity>
+        <activity android:name=".TemperatureConverter"
+            android:label="@string/go_to_temp"></activity>
+        <activity android:name=".Formulae"
+            android:label="@string/go_to_formulae"></activity>
+        <activity android:name=".AreaFormulae"
+            android:label="@string/go_to_area"></activity>
+        <activity android:name=".volumeFomulae"
+            android:label="@string/go_to_volume"></activity>
+
+    </application>
+
+</manifest>
